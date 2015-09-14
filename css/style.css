@@ -79,8 +79,8 @@ body{ font:16px/24px Helvetica, Helvetica Neue, Arial, sans-serif; }
     ALL: Green Theme
    =================== */
 
-#header-container{ border-bottom: 20px solid #a1b56c; }
-#footer-container{ border-top:    20px solid #a1b56c; }
+#header-container{ border-bottom: 20px solid #7a8d47; }
+#footer-container{ border-top:    20px solid #7a8d47; }
 #main aside      { border-top:    20px solid #a1b56c; }
 
 #header-container,
@@ -103,7 +103,7 @@ nav a{
 	margin-bottom:10px;
 	padding:15px 0;
 
-	background:#a1b56c;
+	background:#7a8d47;
 	color:white;
 
 	text-align:center;
