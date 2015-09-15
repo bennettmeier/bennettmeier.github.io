@@ -17,7 +17,7 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 a { color: #181818; }
 a:visited { color: #282828; }
 a:hover { color: #ff0; }
-a:focus { outline: thin dotted; }
+a:focus { outline: thin; background:#b8b8b8; }
 a:hover, a:active { outline: 0; }
 
 abbr[title] { border-bottom: 1px dotted; }
@@ -71,8 +71,8 @@ td { vertical-align: top; }
 body{ font:16px/24px Helvetica, Helvetica Neue, Arial, sans-serif; }
 
 .wrapper{
-	width:90%;
-	margin:0 5%;
+	width:95%;
+	margin:0 2.5%;
 }
 
 /* ===================
@@ -80,7 +80,7 @@ body{ font:16px/24px Helvetica, Helvetica Neue, Arial, sans-serif; }
    =================== */
 
 #header-container{ border-bottom: 20px solid #e8e8e8; }
-#footer-container{ border-top:    10px solid #e8e8e8; }
+#footer-container{ border-top:    20px solid #e8e8e8; }
 #main aside      { border-top:    20px solid #e8e8e8; }
 
 #header-container,
@@ -142,7 +142,7 @@ nav a:hover{
 
 #footer-container footer{
 	color:#181818;
-	padding:10px 0;
+	padding:20px 0;
 }
 
 /* ===============
