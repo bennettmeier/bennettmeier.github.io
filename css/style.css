@@ -16,7 +16,7 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
 a { color: #181818; }
 a:visited { color: #282828; }
-a:hover { color: #383838; }
+a:hover { color: #ff0; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
@@ -134,12 +134,12 @@ nav a:hover{
 }
 
 #main aside{
-	color:white;
+	color:#181818;
 	padding:0px 5% 10px;
 }
 
 #footer-container footer{
-	color:white;
+	color:#181818;
 	padding:20px 0;
 }
 
