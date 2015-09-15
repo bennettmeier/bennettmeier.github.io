@@ -11,12 +11,12 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 body { margin: 0; font-size: 13px; line-height: 1.231; }
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #f5f5f5; color: #181818; text-shadow: none; }
+::selection { background: #f5f5f5; color: #181818; text-shadow: none; }
 
 a { color: #181818; }
 a:visited { color: #282828; }
-a:hover { color: #b8b8b8; background: #181818; }
+a:hover { color: #383838; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
@@ -76,7 +76,7 @@ body{ font:16px/24px Helvetica, Helvetica Neue, Arial, sans-serif; }
 }
 
 /* ===================
-    ALL: Black/Green Theme
+    ALL: Simple Theme
    =================== */
 
 #header-container{ border-bottom: 20px solid #e8e8e8; }
@@ -86,6 +86,7 @@ body{ font:16px/24px Helvetica, Helvetica Neue, Arial, sans-serif; }
 #header-container,
 #footer-container,
 #main aside{
+	color:#181818;
 	background:#f5f5f5;
 }
 
@@ -103,8 +104,8 @@ nav a{
 	margin-bottom:10px;
 	padding:15px 0;
 
-	background:#282828;
-	color:white;
+	background:#f5f5f5;
+	color:#181818;
 
 	text-align:center;
 	text-decoration:none;
@@ -112,12 +113,11 @@ nav a{
 }
 
 nav a:hover, nav a:visited{
-	background:#414b26;
-	color:white;
+	color:#282828;
 }
 
 nav a:hover{
-	text-decoration:underline;
+	text-decoration:none;
 }
 
 /* ==============
