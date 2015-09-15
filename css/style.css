@@ -76,7 +76,7 @@ body{ font:16px/24px Helvetica, Helvetica Neue, Arial, sans-serif; }
 }
 
 /* ===================
-    ALL: Green Theme
+    ALL: Black/Green Theme
    =================== */
 
 #header-container{ border-bottom: 20px solid #7a8d47; }
@@ -86,7 +86,7 @@ body{ font:16px/24px Helvetica, Helvetica Neue, Arial, sans-serif; }
 #header-container,
 #footer-container,
 #main aside{
-	background:#a1b56c;
+	background:#181818;
 }
 
 #title{ color:white; }
