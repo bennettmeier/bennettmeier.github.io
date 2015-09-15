@@ -14,9 +14,9 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
 
-a { color: #00e; }
-a:visited { color: #551a8b; }
-a:hover { color: #06e; }
+a { color: #181818; }
+a:visited { color: #282828; }
+a:hover { color: #b8b8b8; background: #181818; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
@@ -79,20 +79,20 @@ body{ font:16px/24px Helvetica, Helvetica Neue, Arial, sans-serif; }
     ALL: Black/Green Theme
    =================== */
 
-#header-container{ border-bottom: 20px solid #7a8d47; }
-#footer-container{ border-top:    20px solid #7a8d47; }
-#main aside      { border-top:    20px solid #7a8d47; }
+#header-container{ border-bottom: 20px solid #e8e8e8; }
+#footer-container{ border-top:    20px solid #e8e8e8; }
+#main aside      { border-top:    20px solid #e8e8e8; }
 
 #header-container,
 #footer-container,
 #main aside{
-	background:#181818;
+	background:#f5f5f5;
 }
 
-#title{ color:white; }
+#title{ color:#181818; }
 
-::-moz-selection { background: #a1b56c; color: #fff; text-shadow: none; }
-::selection      { background: #a1b56c; color: #fff; text-shadow: none; }
+::-moz-selection { background: #f5f5f5; color: #181818; text-shadow: none; }
+::selection      { background: #f5f5f5; color: #181818; text-shadow: none; }
 
 /* ==============
     MOBILE: Menu
