@@ -118,8 +118,8 @@ nav a:hover, nav a:visited{
 }
 
 nav a:hover{
-	color:#FF0;
-	background:#000;
+	color:#000;
+	background:#383838;
 	text-decoration:none;
 }
 
@@ -226,12 +226,12 @@ nav a:hover{
    ============ */
 
 	#main article{
-		float:left;
+		float:right;
 		width:57%;
 	}
 		
 	#main aside{
-		float:right;
+		float:left;
 		width:28%;
 	}
 }
